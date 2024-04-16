@@ -6,7 +6,7 @@ import { Link } from "react-router-dom";
 export const Project = () => {
   return (
     <>
-      <div className="container flex flex-col mt-[124px]">
+      <div className="container flex flex-col items-center justify-center mt-[124px]">
         <h2
           className="text-3xl font-bold text-secondary mb-[38px] text-center md:text-4xl md:text-left"
           data-aos="fade-right"
