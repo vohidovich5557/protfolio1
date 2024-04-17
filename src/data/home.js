@@ -144,7 +144,7 @@ export const cardData = [
     title: "ChakraUI",
     text: "This project created with react router react query taiwland css toastfy. In this page you can add tables and delet edit it. ",
     stack: "HTML , JavaScript, SASS, React",
-    link: "https://chakra-ui-ochre-beta.vercel.app/",
+    link: "https://chakraui12.netlify.app/",
     linktext: "Live Preview",
     link2: "https://github.com/vohidovich5557/chakraUI",
     linktext2: "View Code",
