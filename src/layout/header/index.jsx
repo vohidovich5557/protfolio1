@@ -12,7 +12,7 @@ export const Header = () => {
   return (
     <>
       <Modal close={close} isOpen={isOpen}>
-        <div className="grid grid-cols-1 lg:grid-cols-3 md:grid-cols-2 items-center justify-center h-[60vh] md:h-auto lg:h-auto lg:py-[52px] lg:px-[92px] overflow-scroll gap-5">
+        <div className="grid grid-cols-1 lg:grid-cols-3 md:grid-cols-2 items-center justify-center h-[60vh] md:h-auto lg:h-auto lg:py-[52px] lg:px-[92px] overflow-scroll gap-3">
           {navData?.map((item) => (
             <>
               <Link to={item.path}>
