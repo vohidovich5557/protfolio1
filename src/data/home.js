@@ -13,6 +13,8 @@ import github2 from "../assets/icons/github2.svg";
 import cardImg from "../assets/cardImg.svg";
 import cardImg1 from "../assets/cardImg1.png";
 import cardImg2 from "../assets/cardImg2.png";
+import cardImg3 from "../assets/cardImg3.png"; 
+import cardImg4 from "../assets/cardImg4.png";
 import typescript from "../assets/icons/typescript.png";
 
 export const navData = [
@@ -163,29 +165,43 @@ export const cardData = [
   {
     aos: "fade-up-right",
     id: 3,
-    img: cardImg,
-    title: "Project Tile goes here",
-    text: "This is sample project description random things are here in description This is sample project lorem ipsum generator for dummy content",
-    stack: "HTML , JavaScript, SASS, React",
-    link: "",
+    img: cardImg3,
+    title: "Stock Market Landing Page",
+    text: "This project is created by liberary React and also used with Typescript. for Design side we use Tailwand Css and some css. And in this project also we have changing lang. you can chang language by i18next",
+    stack: "HTML , JavaScript, TypScript, React",
+    link: "https://bukharauzex.vercel.app/",
     linktext: "Live Preview",
-    link2: "",
+    link2: "https://github.com/vohidovich5557/uzex",
     linktext2: "View Code",
     showMore: "More About",
+    comment1: 
+     "Loyihada Stock Market uchun landing page yaratilgan. Va bu amal React Router orqali tizimlashtirilgan. Undan tashqari bu projectda Typescript ishlatilgan",
+     comment2: 
+      "Loyihada uchta til mavjud u tillar orqali siz xohlagan tilizni tanlab o`zingizga qulay bo`lgan holda ishlasangiz bo`ladi. Va bu amal React i18next orqali tizimlashtirilgan.",
+     comment3: 
+      "Loyihada form mavjud va uni to`ldirganingizda u sizning ma`lumotinggizni unga ulangan botga jo`natadi. Va bu amal reactning oziga fetching orqali qilingan.",
+     comment4:
+      "Loyihada Clients qismi mavjud va uning ustiga bosganingizda uni client uchun bo`lgan ma`lumotlar kelib chiqadi. va bu amal react-router orqali amalga oshirilgan.",
   },
 
   {
     aos: "fade-up-left",
     id: 4,
-    img: cardImg,
-    title: "Project Tile goes here",
-    text: "This is sample project description random things are here in description This is sample project lorem ipsum generator for dummy content",
-    stack: "HTML , JavaScript, SASS, React",
-    link: "",
+    img: cardImg4,
+    title: "Realsoft AI",
+    text: "This proejct is created by Realsoft AI and in this project i worked in landingPage and also some inner places. and we used aphrodite css and react js for creating full front project.",
+    stack: "HTML , JavaScript, AphroditeCss, React",
+    link: "https://realsoft.ai/",
     linktext: "Live Preview",
     link2: "",
     linktext2: "View Code",
     showMore: "More About",
+    comment1: 
+     "Loyida Realsoft AI va bu proejctda landing page yaratildi. Va bu amal React Router orqali tizimlashtirilgan. Undan tashqari bu proejctda React js ishlatilgan.",
+     comment2: 
+      "Loyihada Tilni tanlash uchun qo`lda yasalgan selector mavjud. Va bu amal hech qanday kutubxonasiz amalga oshirilgan.",
+      comment3: 
+       "Loyihada undan tashqari responsive qismi mavjud. vau har qanday qurilmaga moslashuvchan bo`ladi. va uning burger qismi bor navigation uchun",
   },
 
   {
