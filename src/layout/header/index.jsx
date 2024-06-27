@@ -23,7 +23,9 @@ export const Header = () => {
         </div>
       </Modal>
       <div className="container flex items-center justify-between mt-[30px]">
-        <h2 className="text-lg font-semibold">Protofolio</h2>
+       <Link to="/">
+       <h2 className="text-lg font-semibold">Protofolio</h2>
+       </Link>
         <nav className=" items-center gap-[51px] hidden md:flex ">
           <ul className="flex items-center gap-[67px]">
             {navData.map((item) => (
